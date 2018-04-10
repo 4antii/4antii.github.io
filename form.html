@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="nav">
+    <div class="container">
+        <a class="nav__cross"></a>
+        <ul class="nav-list">
+            <li class="nav-list__nav-element nav-list__nav-element--left"><a href="index.html"><span>Главная</span></a></li>
+            <li class="nav-list__nav-element nav-list__nav-element--left"><a href="photo.html"><span>Фото И Видео</span></a></li>
+            <li class="nav-list__nav-element nav-list__nav-element--right"><a href="https://github.com/4antii"><span>ANTII</span></a></li>
+            <li class="nav-list__nav-element nav-list__nav-element--right"><a href="form.html"><span>Форма отзыва</span></a></li>
+        </ul>
+        <a class="nav-list__burger"></a>
+        <img class="nav__centred-icon" src="images/logotyle-mobile.png" alt="">
+    </div>
+</header>
+<section class="entry-banner">
+    <div class="container container--padding-bottom">
+        <div  class="entry-banner__image entry-banner__image--photogallery"></div>
+        <h1 class="entry-banner__header">Оставьте свой отзыв</h1>
+        <h2 class="entry-banner__subheader">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</h2>
+    </div>
+</section>
+<form action="">
+    <div class="container-form">
+        <section class="fio">
+            <h1 class="form__h1">Представьтесь, пожалуйста</h1>
+            <div class="fio__input">
+                <input class="typical-input" type="text" placeholder="Ваше имя">
+                <span class="form__info-text form__info-text--float-right">Имя</span>
+            </div>
+            <div class="fio__input">
+                <input class="typical-input" type="text" placeholder="Ваша фамилия">
+                <span class="form__info-text form__info-text--float-right">Фамилия</span>
+            </div>
+            <div class="fio__input">
+                <input class="typical-input" type="text" placeholder="Ваше отчество">
+                <span class="form__info-text form__info-text--float-right">Отчество</span>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h1 class="form__h1">Контактная информация</h1>
+            <div class="desktop-left">
+                <h2 class="form__info-text">Контактный телефон:</h2>
+                <div class="phone">
+                    <input type="text" class="typical-input typical-input--without-float typical-input--phone" placeholder="Введите телефон">
+                </div>
+            </div>
+            <div class="desktop-right">
+                <h2 class="form__info-text ">Электронная почта</h2>
+                <div class="mail">
+                    <input type="text" class="typical-input typical-input--without-float typical-input--mail" placeholder="Введите e-mail">
+                </div>
+            </div>
+        </section>
+
+        <section class="radios">
+            <h1 class="form__h1 form__h1--tablet">Ваше общее впечатление</h1>
+            <div class="radios-wrapper">
+                <label class="radio-container"><span class="form__h1 form__h1--not-upper">Скорее положительное</span>
+                    <input type="radio" checked="checked" name="radio">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="radio-container"><span class="form__h1 form__h1--not-upper">Скорее отрицательное</span>
+                    <input type="radio" name="radio">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="radio-container"><span class="form__h1 form__h1--not-upper">Затрудняюсь ответить</span>
+                    <input type="radio" name="radio">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+        </section>
+
+        <section class="checkboxes">
+            <h1 class="form__h1">Посещенные достопримечательности</h1>
+            <label class="container-checkbox"><span class="form__h1 form__h1--not-upper">Мост-Дьявола</span>
+                <input type="checkbox" checked="checked">
+                <span class="checkmark-checkbox"></span>
+            </label>
+            <label class="container-checkbox"><span class="form__h1 form__h1--not-upper">Слайд-парк</span>
+                <input type="checkbox" checked="checked">
+                <span class="checkmark-checkbox"></span>
+            </label>
+            <label class="container-checkbox"><span class="form__h1 form__h1--not-upper">Гора-Колокол</span>
+                <input type="checkbox">
+                <span class="checkmark-checkbox"></span>
+            </label>
+            <label class="container-checkbox"><span class="form__h1 form__h1--not-upper">Красные скалы</span>
+                <input type="checkbox" checked="checked">
+                <span class="checkmark-checkbox"></span>
+            </label>
+        </section>
+
+        <section class="review">
+            <h1 class="form__h1">Опишите свои эмоции</h1>
+            <textarea placeholder="Опишите подробно все свои восторги"></textarea>
+            <button class="submit-button">Отправить отзыв</button>
+        </section>
+    </div>
+</form>
+<footer class="footer">
+    <div class="container-footer">
+        <h1 class="footer__header">#VISITSEDONA</h1>
+        <div class="footer__social">
+            <a class="footer__social-link footer__social-link--twitter" href="#"></a>
+            <a class="footer__social-link footer__social-link--facebook" href="#"></a>
+            <a class="footer__social-link footer__social-link--youtube" href="#"></a>
+        </div>
+        <h2 class="footer__subheader">Разработано <br> ANTII</h2>
+    </div>
+</footer>
+</body>
+</html>
